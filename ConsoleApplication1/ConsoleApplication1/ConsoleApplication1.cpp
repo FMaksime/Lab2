@@ -25,11 +25,8 @@ int main()
     cout << "Сумма вiднiмання трьох чисел =" << minus << endl;
 
     mult = a * b * c;
-    cout << "Сумма множення чотирьох чисел =" << mult << endl;
-
-    division = a / b / c;
-    cout << "Сумма дiлення трьох чисел =" << division << endl;
-
+    cout << "Сумма множення чотирьох чисел =" << mult << endl;  
+    
     average = (double)(a + b + c) / 3;
     cout << "Середнє арефмитичне трьох чисел =" << average << endl;
 
