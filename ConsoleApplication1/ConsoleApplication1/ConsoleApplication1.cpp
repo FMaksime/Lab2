@@ -31,7 +31,7 @@ int main()
     cout << "Сумма дiлення трьох чисел =" << division << endl;
 
     average = (double)(a + b + c) / 3;
-    cout << "Середнє арефмитичне трьох чисел" << average << endl;
+    cout << "Середнє арефмитичне трьох чисел =" << average << endl;
 
     return 0;
 
