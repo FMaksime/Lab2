@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "UKRAINIAN");
+     setlocale(LC_ALL, "UKRAINIAN");
 
     int a, b, c;
      
@@ -25,8 +25,11 @@ int main()
     cout << "Сумма вiднiмання трьох чисел =" << minus << endl;
 
     mult = a * b * c;
-    cout << "Сумма множення чотирьох чисел =" << mult << endl;  
-    
+    cout << "Сумма множення чотирьох чисел =" << mult << endl;
+
+    division = a / b / c;
+    cout << "Сумма дiлення трьох чисел =" << division << endl;
+
     average = (double)(a + b + c) / 3;
     cout << "Середнє арефмитичне трьох чисел =" << average << endl;
 
