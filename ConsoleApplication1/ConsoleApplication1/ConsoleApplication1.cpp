@@ -6,24 +6,34 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "UKRAINIAN");
+
     int a, b, c;
+     
+    int plus, minus, mult, division;
 
-	int sum,mult;
+    double average;
 
-	double average;
+    cout << "Введiть 3 числа" << endl;
 
-	cout << "Enter 3 numbers:" << endl;
+    cin >> a >> b >> c;
 
-	cin >> a >> b >> c;
+    plus = a + b + c;
+    cout << "Сумма додавання трьох чисел =" << plus << endl;
 
-	sum = a + b + c;
-    cout << "The sum of three numbers =" << sum << endl;
+    minus = a - b - c;
+    cout << "Сумма вiднiмання трьох чисел =" << minus << endl;
 
-	mult = a * b * c;
-    cout << "Creating three numbers =" << mult << endl;
+    mult = a * b * c;
+    cout << "Сумма множення чотирьох чисел =" << mult << endl;
 
-	average =  (double)(a+b+c) /3;
-    cout << "Arithmetic average of 3 numbers =" << average << endl;
+    division = a / b / c;
+    cout << "Сумма дiлення трьох чисел =" << division << endl;
+
+    average = (double)(a + b + c) / 3;
+    cout << "Середнє арефмитичне трьох чисел" << average << endl;
+
+    return 0;
 
 }
 
